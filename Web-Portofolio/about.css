@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 10rem;
+  height: 5.5rem;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  margin-top: -150px;
+}
+
+.nav1 {
+  margin-top: -7px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 30px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navbar img {
+  margin-right: 1200px;
+  border-radius: 10px;
+}
+
+.nav1:hover {
+  background: orange;
+  border-radius: 150px;
+}
+.nav-contact {
+  background: #3f72af;
+  border-radius: 20px;
+  margin-top: -5px;
+  margin-left: 10px;
+  padding: 5px 10px 5px 10px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+.nav-contact:hover {
+  background: #fba322;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("Reuss.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+ul {
+  margin-left: -45px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.medsos {
+  margin-top: 150px;
+  margin-left: -650px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+  color: #1d1534;
+}
+p {
+  padding: 2rem;
+  width: 70%;
+  color: #1d1534;
+  text-align: left;
+}
+.container-text {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem 0 3rem 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #1d1534;
+  border-radius: 0px 100px 0px 100px;
+}
+
+.about-img {
+  margin: 1rem 2rem 0 4rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 2rem;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.7);
+}
+.text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0;
+  color: #1d1534;
+}
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.kiri-footer {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.kanan-footer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-top: 4rem;
+}
+.copyright {
+  text-align: center;
+  margin-left: 220px;
+  padding-bottom: 0px;
+}
+
+.copyright p {
+  padding-bottom: -2px;
+}
+
+.medsos-container {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.medsos-container > p {
+  padding-left: 1rem;
+  color: #1d1534;
+}
+
+.medsos-container > img {
+  height: 3rem;
+  width: 3rem;
+}
